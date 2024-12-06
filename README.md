@@ -15,8 +15,26 @@ para montar y servir el api/backend ingresar a las carpetas en el siguiente orde
   cd functions
   npm install 
 ```
+crea una BD con la tabla tareas de la siguientr forma:
+```bash
+CREATE TABLE `tareas` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `titulo` varchar(100) DEFAULT NULL,
+  `descripcion` varchar(200) DEFAULT NULL,
+  `estado` int DEFAULT NULL,
+  `fecha_creacion` date DEFAULT NULL,
+  `fecha_limite` date DEFAULT NULL,
+  `categoria` varchar(30) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+```
 
-una ves instaladas las dependendias 
+y despues configura de acuerdo a tus opciones de configuracion en el archivo:
+```bash
+ db.js
+ ```
+
+una ves instaladas las dependendias y configutrada la BD
  ejecutar:
 
  ```bash
