@@ -36,6 +36,6 @@ una ves concluido el proceso puedes correr la aplicacion en la url que te muestr
  ```bash
  localhost:8000
 ```
- # Aqui podras realizar la prueba de todos los elementos visuales.
+ # Aqui podras realizar la prueba de todos los elementos funcionales.
 
  # Agradezco tu tiempo y espero todo esto ayude. :D 
