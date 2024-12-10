@@ -97,7 +97,7 @@ function App() {
     setTareaSelected(tareaNormalizada);
     setOpen(true);
   }
-
+// actualizar y crear
   const sendInfo = async(formInfo: FormDataInfo)=>{
     // const response = await sendData('add-tarea',formInfo)
     if (tareaSelected && tareaSelected.id) {
@@ -112,10 +112,12 @@ function App() {
     fetchData();
     cerrarForm();
   }
+  // completar
   const completedTarea = async(id:any)=>{
     await completeTarea('complete-tarea',id); 
     fetchData();
   }
+  // eliminar
   const deletedTarea = async (id: any) => {
     await deleteTarea('delete-tarea', id);
     fetchData();
