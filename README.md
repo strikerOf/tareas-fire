@@ -49,6 +49,17 @@ acceder a la carpeta fronteendv e instalar las dependencias
   cd fronteendv
   npm install
 ```
+## Front-end con React (React- Material UI) & Typescript
+acceder a la carpeta frontend-react e instalar las dependencias
+
+ ```bash
+  cd frontend-react
+  npm install
+```
+En ambos frontend para ejecutar el sistema de lado del front:
+ ```bash
+  npm run dev
+```
 
 una ves concluido el proceso puedes correr la aplicacion en la url que te muestra, la cuale sta configurada para ser:
  ```bash
