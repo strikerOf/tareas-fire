@@ -61,9 +61,13 @@ En ambos frontend para ejecutar el sistema de lado del front:
   npm run dev
 ```
 
-una ves concluido el proceso puedes correr la aplicacion en la url que te muestra, la cuale sta configurada para ser:
+una ves concluido el proceso puedes correr la aplicacion en la url que te muestra, la cuale sta configurada para ser para VUE
  ```bash
  localhost:8000
+```
+una ves concluido el proceso puedes correr la aplicacion en la url que te muestra, la cuale sta configurada para ser para REACT
+ ```bash
+ localhost:5173
 ```
  # Aqui podras realizar la prueba de todos los elementos funcionales.
 
